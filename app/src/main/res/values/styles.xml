@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base app theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/app_gradient_bg</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="materialButtonStyle">@style/Widget.AppButton</item>
+    </style>
+
+    <!--  custom full-width, green button -->
+    <style name="Widget.AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="backgroundTint">@color/accent</item>
+    </style>
+
+    <!-- TextInputLayout with 8dp rounded corners -->
+    <style name="AppTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/input_bg</item>
+        <item name="boxStrokeColor">@color/input_border</item>
+        <!--  'boxCornerRadius' attributes -->
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <!-- Primary palette -->
+    <color name="primary_start">#0099FF</color>
+    <color name="primary_end">#00B8D9</color>
+    <color name="accent">#00FF99</color>
+    <color name="error">#FF5252</color>
+
+    <!-- Text & backgrounds -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#DDDDDD</color>
+    <color name="card_bg">#33CCFF</color>
+    <color name="card_bg_light">#FFFFFF99</color>
+    <color name="input_bg">#FFFFFF</color>
+    <color name="input_border">#CCCCCC</color>
+
+    <!-- Results card colors -->
+    <color name="result_correct">#A5D6A7</color>
+    <color name="result_incorrect">#EF9A9A</color>
+</resources>
